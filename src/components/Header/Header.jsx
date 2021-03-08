@@ -12,9 +12,8 @@ const b = block('header')
   </header>
 )*/
 export const Header = () => (
-  <header>
-    <nav>
-      <ul>
+  <header className={b()}>
+   <ul className={b('items')}>
 <li>About</li>
 <li>Aparment</li>
 <li>How it Work</li>
@@ -23,8 +22,6 @@ export const Header = () => (
 <li>Join Us</li>
 <li>Getting Started</li>
       </ul>
-      <span>☰</span>
-    </nav>
   </header>
 )
 /**<header>

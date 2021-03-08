@@ -3,13 +3,20 @@
   align-items: center;
   justify-content: center;
   padding: 16px 8px 12px;
-  height: 40px;
-  background-color: #2c2c2c;
-  color: #e0e0e0;
+  height: 70px;
+  background-color:#F5DEB3;
+  color: #696969;
+  font-family: "Roboto Condensed", sans-serif;
 
-  &__title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 2em;
+  &__items {
+  color: #000;
+  text-decoration: none;
+  align-self: center;
+  font-size: 20px;
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
   }
+
 }
