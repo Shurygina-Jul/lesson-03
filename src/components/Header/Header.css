@@ -1,28 +1,37 @@
+:root {
+  --header-color:#F5DEB3;
+  --footer-color:#1f373d;
+  --content-color:#FFF8DC;
+  --text-color: #1f373d;
+}
 .header {
-  padding: 0;
+  padding: 20px;
   margin: 0;
   height: 100%px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
- background-color:#F5DEB3;
+ background-color:var( --header-color);
   font-family: "Roboto Condensed", sans-serif;
+  background: linear-gradient(180deg, var( --header-color), var( --content-color));
 
 
 
      &__title {
      font-size: 200%;
-     color:green;
-    letter-spacing: 3px;
-    text-transform:uppercase;}}
+     color:var( --text-color);
+     letter-spacing: 3px;
+     text-transform:uppercase;
+    }
+  }
 
 .navbar {
     font-size: 13px;
 
     &__link{
         text-decoration: none;
-        color: green;
+        color: var( --text-color);
         align-self: center;
        padding: 10px 15px;
     }
