@@ -24,7 +24,11 @@ export const Footer = () => (
             <a className={l('link')} href="#">Hunters</a>
           </div>
 
-
+          <div className={l()}>
+            <p>luxestate</p>
+            <a className={l('link')} href="#">Agents</a>
+            <a className={l('link')} href="#">Hunters</a>
+          </div>
 
   </footer>
 
